@@ -1,0 +1,21 @@
+body{
+
+background-color: rgb(138, 240, 240);
+
+
+}
+.g{
+color: darkblue;
+
+}
+*{
+    color: red;
+}
+.p{
+    color:rgb(148, 56, 56);
+}
+.w{
+    color:rgb(245, 245, 46);
+    text-decoration-thickness:inherit ; 
+    font-style:italic;
+}

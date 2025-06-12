@@ -1,0 +1,324 @@
+.main{
+    height: 3000px;
+ width:1350px;
+ font-size:40px;
+ color:white;
+ /* text-shadow:5px 5px 10px red; */
+ /* background-color:black; */
+ border:5px solid black;
+ border-radius: 30px;
+
+ display: flex;
+ flex-direction: row;
+background-image:url("./m.jpg") ;
+background-position: center;
+background-size: cover;
+}
+
+.hr{
+  border:1px solid black;
+  position:absolute;
+  margin-top: 1200px;
+  height: 2px;
+  font-size: 0;
+  width: 1350px;
+ 
+}
+#r{
+  
+  border:1px solid rgb(10, 1, 1);
+  position:absolute;
+  top: 255px;
+  height: 2px;
+  font-size: 0;
+  width: 500px;
+  left:5px;
+background-color: yellow;
+}
+
+.y{
+
+  border:1px solid rgb(10, 1, 1);
+  position:absolute;
+  top: 140px;
+  height: 2px;
+  font-size: 0;
+  width: 500px;
+  left:5px;
+background-color: yellow;
+}
+
+
+.welcome{
+ height: 300px;
+ 
+ width:350px;
+ font-size:50px;
+ color:white;
+ text-shadow:5px 2px 30px rgb(217, 255, 0);
+ background-color:black;
+ border:5px solid rgb(223, 227, 231);
+ border-radius: 30px;
+ font-style: italic;
+outline-style: groove;
+outline-color: red;
+outline-width: 20px;
+box-shadow: 10px 10px 50px 30px blue;
+text-align: center;
+}
+.home{ 
+  height: 150px;
+    width:300px;
+    font-size:40px;
+    color:white;
+    text-shadow:5px 5px 10px red;
+    background-color:black;
+    border:5px solid black;
+    border-radius: 30px;
+    
+   outline-style: groove;
+   outline-color: red;
+   outline-width: 20px;
+   box-shadow: 10px 10px 50px 30px blue;
+   text-align: center;
+   left:450px;
+   position: absolute;
+}
+.email{ height: 150px;
+    width:400px;
+    font-size:40px;
+    color:white;
+    text-shadow:5px 5px 10px red;
+    background-color:black;
+    border:5px solid rgb(247, 11, 11);
+    border-radius: 30px;
+    
+   outline-style: groove;
+   outline-color: red;
+   outline-width: 20px;
+   box-shadow: 10px 10px 50px 30px blue;
+   text-align: center;
+left:900px;
+position: absolute;
+
+}
+.fm{
+
+    height: 500px;
+    width:300px;
+display:flex;
+    border:5px solid rgb(235, 228, 228);
+position: absolute;
+right:100px;
+top:400px;
+
+
+
+}
+#fo{
+    /* text-decoration:red; */
+    font-size: medium;
+    color:red;
+}
+.la{
+    color:red;
+    font-size:medium;
+    text-align: center;
+    position:absolute;
+top:100px;
+
+}
+
+
+/* 
+.form{
+
+
+
+} */
+.offer{
+    height:300px;
+    width:400px;
+    font-size:30px;
+    font-style: italic;
+    color:rgb(7, 1, 1);
+    text-shadow:5px 5px 10px red;
+    background-color:rgb(30, 192, 233);
+    border:5px solid black;
+    border-radius: 50%;
+  top:550px;
+  left:50px;
+  position:absolute;
+   outline-style: groove;
+   outline-color: rgb(51, 255, 0);
+   outline-width: 4px;
+   display:flex ;
+   padding:50px;
+}
+
+
+
+
+.form-container {
+  height: 700px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:transparent;
+        border-radius: 8px ;
+    border-color: 5px greenyellow;
+    outline-width:medium;
+    outline-color: red;
+    box-shadow: 0 4px 8px red;
+position: absolute;
+left:900px;
+color:black;
+top:400px;  
+font-size:medium;
+border-style: dashed;
+box-shadow: 10px 20px 30px 15px rgb(22, 233, 75);
+background-image:linear-gradient(red ,greenyellow);
+}
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+
+  .form-group date{
+    background-color:#4CAF50;
+  }
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 10px;
+    }
+  
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      font-size: 14px;
+    }
+  }
+  .menu{
+height: 100px;
+width: 200px;
+background-color: black;
+border: 5px;
+border-radius: 30px;
+margin-top: 1000px;
+border-color: rgb(0, 255, 76);
+left: 500px;
+position: absolute;
+padding:40px;
+outline-style: groove;
+outline-color: yellow;
+text-shadow: 2px 3px 13px yellow;
+box-shadow: 10px 20px 10px rgb(252, 13, 13) ;
+text-align: center;
+  }
+
+.starters{
+  height: 350px;
+  width: 200px;
+  border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1400px;
+font-size: medium;
+color: rgb(10, 1, 1);
+box-shadow: 10px 20px 50px 15px red;
+background-image:linear-gradient(red,greenyellow);
+}
+.south{  height: 350px;
+  width: 200px;
+  border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1400px;
+font-size: medium;
+color: rgb(5, 1, 1);
+left:550px;
+box-shadow: 10px 20px 50px 15px red;
+background-image:linear-gradient(red ,green, blue,greenyellow);
+
+
+}
+.indniank{  height: 350px;
+  width: 200px;
+  border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1400px;
+font-size: medium;
+color: rgb(7, 1, 1);
+left:1000px;
+box-shadow: 10px 20px 50px 15px rgb(0, 255, 85);
+background-image:linear-gradient(red ,green, blue,greenyellow);
+
+}
+.Rice{
+  height: 350px;
+  width: 200px;
+  border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1800px;
+font-size: medium;
+color: rgb(8, 1, 1);
+box-shadow: 10px 20px 50px 15px rgb(157, 255, 0);
+background-image:linear-gradient(red ,green, blue,greenyellow);
+
+}
+.tandorri{  height: 350px;
+  width: 200px;
+  border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1800px;
+font-size: medium;
+color: rgb(10, 1, 1);
+left:550px;
+box-shadow: 10px 20px 50px 15px rgb(0, 255, 157);
+background-image:linear-gradient(red ,green, blue,greenyellow);
+}
+.ber
+{
+height: 350px;
+width: 200px;
+border-style: groove;
+border: 5px solid black;
+position: absolute;
+top:1800px;
+font-size: medium;
+color: rgb(7, 1, 1);
+left:1000px;
+box-shadow: 10px 20px 50px 15px rgb(240, 225, 225);
+background-image:linear-gradient(red ,green, blue,greenyellow);
+}

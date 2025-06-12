@@ -1,0 +1,233 @@
+
+
+.main 
+{
+z-index:-1;
+background-image: url("./m.jpg");
+background-attachment: fixed;
+background-size: cover;
+width:1500px;
+height: 2900px;
+border:3px solid black;
+display: flex;
+justify-content: center;
+
+padding-bottom: 50px;
+position:relative;  
+padding: 20px;
+}
+
+#hr{
+
+    width: 1300px;
+    position: absolute;
+    top:250px;
+   /* height: 5px; */
+    /* background-color: black;
+    border: 5px solid black; */
+}
+
+.welcome{
+    text-shadow: 2px 2px 5px rgb(247, 244, 244);
+
+border-color: red;
+
+border-style: groove;
+border-radius: 30px;
+height: 200px;
+width:450px;
+left:500px;
+font-size: large;
+position: absolute;
+text-align: center;
+box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+
+}
+.address{
+    /* display: flex; */
+    
+    height: 800px;
+    width: 1300px;font-size: large;
+    border: 5px solid green;
+top:300px;
+position: absolute;
+box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+text-align: center;
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+.add{
+    text-shadow: 2px 2px 5px rgb(247, 244, 244);
+    /* display: flex; */
+
+    height: 300px;
+    width: 150px;font-size: large;
+    border-radius: 30px;
+    border:5px solid blue;
+    box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+text-align: center;
+}
+.bl{
+
+    /* display: flex; */
+    height: 300px;
+    width: 150px;
+    border-radius: 30px;font-size: large;
+    border:5px solid blue;
+    position: absolute;
+    background-image: url("./m.jpg");
+    background-size: cover;
+ animation: any 30s infinite;
+ background-position: left right;
+
+ right: 2px;
+    top:1px;
+    box-shadow: 5px 5px 50px 30px blueviolet;
+/* background-image: repeating-linear-gradient(red,yellow,green); */
+text-align: center;
+}
+ @keyframes any
+ {
+   50% {
+       background-position :center;
+    }
+ }
+   
+
+.we{
+
+    /* display: flex;  */
+    height: 300px;
+    width: 150px;
+    border-radius: 30px;
+    border:5px solid blue;font-size: large;
+    position: absolute;
+   top:400px;
+    box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+text-align: center;
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+.please{  
+    /* display: flex; */
+    height: 300px;
+    width: 150px;
+    border-radius: 30px;
+     border:5px solid blue;
+    position: absolute;font-size: large;
+    right: 2px;
+    top:400px;
+    box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+.welcomem{
+
+    /* display: flex; */
+    border: 5px solid green;
+    height: 800px;
+    width: 900px;
+position: absolute;
+
+top:900px;
+left:250px;font-size: large;
+border-radius: 30px;
+box-shadow: 5px 5px 50px 20px blue  ;
+background-image: repeating-linear-gradient(rgb(128, 87, 0),rgb(101, 240, 21),rgb(16, 243, 243));
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+.fruits{
+
+    /* display: flex; */
+text-align: center;
+height: 250px;
+width: 350px;
+border:5px solid red;
+font-size: large;
+position: absolute;
+top:1300px;
+right:300px;
+background-image: repeating-linear-gradient(green,white,yellow);
+padding:10px;   
+/* justify-content: center; */
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+.vegetable
+{
+
+ /* display: flex; */
+    text-align: center;
+    height: 400x;
+width:350px ;
+border:5px solid #8400ff;
+position: absolute;
+font-size: large;
+top:1300px;
+left:400px;
+background-image: repeating-linear-gradient(red,green,rgb(182, 182, 190));
+padding: 10px;
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+ 
+}
+
+.items{
+    /* display: flex; */
+height: 300px;
+width: 600px;
+border:5px solid black;
+border-style: groove;font-size: large;
+position: absolute;
+top:1650px;
+left:500px;
+box-shadow: 5px 5px 50px 30px blueviolet;
+background-image: repeating-linear-gradient(red,yellow,green);
+text-align: center;
+font-size: 20px;
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+}
+
+
+
+
+   
+.ex
+
+{
+    
+    position: fixed;
+
+    /* background: #088523; */
+    background-image: repeating-linear-gradient(rgb(132, 0, 255),yellow,rgb(252, 17, 17));
+
+    color: #ffffff;
+
+    padding: 30px;
+
+    bottom :0;
+    /* display: flex; */
+left: 600px;
+box-shadow:5px 5px 50px 30px rgb(94, 4, 4) ;
+border-radius: 30px;
+border:5px solid black;
+font-size: 38px;
+font-style: italic;
+font-weight: 30px;
+color: black;
+height: 100px;
+width: 400px;
+text-shadow: 2px 2px 5px rgb(247, 244, 244);
+
+
+
+
+
+
+}
+
+/* #r{
+
+  bottom: 20px;
+
+} */

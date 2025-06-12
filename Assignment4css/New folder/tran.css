@@ -1,0 +1,372 @@
+.relicate1
+{
+height: 200px;
+/* width: 200px; */
+display: grid;
+grid-template-columns: 100px 100px 100px ;
+column-gap: 150px;
+row-gap: 50px;
+ /* grid-row: 50px 200px 200px ;  */
+
+ }
+ 
+ .card1
+ {
+transform: skewX(20deg);
+animation-name: tran;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+background-color: red;
+border: 4px solid black;
+height: 100px;
+
+}
+
+@keyframes tran{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.card2
+{
+    transform: skewX(20deg);
+    animation-name: transform1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+background-color: red;
+border: 4px solid black;
+height: 100px;
+
+}
+
+@keyframes transform1{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+
+}
+.card3{
+
+    transform: skewX(20deg);
+    animation-name: transfor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+background-color: red;
+border: 4px solid black;
+height: 100px;
+
+}
+
+@keyframes transfor{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+
+.card4
+{
+height: 100px;
+    transform: (20deg);
+    animation-name: trans;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+background-color: rgb(0, 183, 255);
+border: 4px solid black;
+
+
+}
+
+@keyframes trans
+{
+    0%{
+        transform:skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+}
+
+
+.card5
+{
+height: 100px;
+    transform: (20deg);
+    animation-name: rotat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+background-color: rgb(28, 208, 231);
+border: 4px solid black;
+
+
+}
+
+@keyframes rotat
+{
+    0%{
+        transform:skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+}
+
+.card6{
+
+height: 100px;
+animation-duration: 4s;
+animation-iteration-count:infinite ;
+animation-name: tra;
+background-color: aqua;
+border: 4px solid black;
+}
+
+@keyframes tra
+{
+
+0%
+{
+
+transform: skewY(20deg);
+}
+50%{
+
+    transform: skewY(-20deg);
+}
+100%{
+
+    transform: skewY(20deg);
+}
+
+}
+
+.card7{
+
+height: 100px;
+background-color: aqua;
+border: 4px solid black;
+transform: scaleY(20deg);
+
+  transform: rotate(90deg);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+ .card8
+ {
+
+height: 100px;
+
+background-color: rgb(219, 19, 86);
+border:4px solid black;
+  transform: rotate(90deg);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+ .card9{
+
+height: 100px;
+
+background-color: aqua;
+border:4px solid black;
+  /* transform: rotate(90deg); */
+animation-name: ro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ro
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+ .card10{
+
+width: 100px;
+
+background-color: rgb(34, 248, 98);
+border:4px solid black;
+animation-name: top;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+@keyframes top
+{
+0%{
+
+    transform: scaleY(1.0);
+}
+50%
+{
+    transform: scaleY(.5);
+}
+100%{
+transform: scaleY(1.0);
+
+}
+
+}
+
+
+ .card11{
+
+height: 100px;
+
+
+border:4px solid black;
+
+width: 100px;
+
+background-color: rgb(41, 233, 121);
+border:4px solid black;
+animation-name: top;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+@keyframes top
+{
+0%{
+
+    transform: scaleY(1.0);
+}
+50%
+{
+    transform: scaleY(.5);
+}
+100%{
+transform: scaleY(1.0);
+
+}
+
+}
+ .card12{
+
+height: 100px;
+
+border:4px solid black;
+
+width: 100px;
+
+background-color: rgb(75, 226, 75);
+border:4px solid black;
+animation-name: top;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+@keyframes top
+{
+0%{
+
+    transform: scaleY(1.0);
+}
+50%
+{
+    transform: scaleY(.5);
+}
+100%{
+transform: scaleY(1.0);
+
+}
+
+}
+
+#ne{
+
+position: absolute;
+top:600px;
+left:1200px;
+font-size: 40px ;
+
+
+}
+#ba{
+
+position: absolute;
+top:600px;
+font-size: 40px;
+}
+
+
+
+
+
+
+
+/* 
+.relicate2
+{
+
+height: 50px;
+
+background-color: aqua;
+border:4px solid black;
+
+}
+
+.relicate3
+{
+
+height: 50px;
+
+background-color: aqua;
+border:4px solid black;
+
+} */

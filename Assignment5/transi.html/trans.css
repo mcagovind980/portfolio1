@@ -1,0 +1,105 @@
+body 
+{
+    background-color: rgb(21, 245, 77);
+
+    color: black;
+
+    justify-content: center;
+
+    margin-left: 500px;
+
+}
+
+.box
+{
+    height: 100px;
+
+    width: 100px;
+
+    background-color: rgb(241, 36, 36);
+
+    margin: 10px;
+
+    transition-duration: 3s;
+
+  }
+
+#box1:hover
+
+{
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 3s;
+
+}
+
+#box2:hover
+
+{
+
+    width: 250px;
+
+    height: 250px;
+
+    transition: width 2s, height 4s;
+
+}
+#box3:hover
+{
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 3s;
+
+}
+
+#box4:hover
+  {
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 3s;
+
+  }
+#box5:hover
+   {
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 7s;
+
+
+    }
+#box6:hover
+   {
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 7s;
+
+  }
+#box7:hover
+    {
+
+    transition: linear;
+
+    width: 250px;
+
+    transition: 7s;
+}
+    
+
+
+
+

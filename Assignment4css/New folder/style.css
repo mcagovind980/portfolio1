@@ -1,0 +1,177 @@
+body{
+background-image:repeating-linear-gradient(to left, green, white, red );
+
+
+}
+
+
+
+
+
+
+
+.main{
+
+    
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+left: 300px;
+font-size: 40px;
+font-weight:bold;
+/* text-shadow: 4px 5px 10px red; */
+
+}
+#ha{
+background-color: rgb(231, 136, 136);
+position: absolute;
+text-shadow: 4px 5px 10px rgb(128, 173, 231);
+}
+#in{
+background-color: rgb(214, 206, 206);
+position: absolute;
+top:4px;
+left:230px;
+text-shadow: 4px 5px 10px rgb(232, 247, 152);
+}
+#d{
+background-color: rgb(134, 226, 122);
+position: absolute;
+top:8px;
+left:700px;text-shadow: 4px 5px 10px rgb(60, 191, 231);
+}
+
+.road{
+
+
+    background-image: url("road.jpg");
+    height: 210px;
+    width: 200%;
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    animation-name: road;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 90px;
+    top:-100px;
+ 
+}
+@keyframes road{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 100%;
+    }
+
+
+}
+
+
+.city{
+height: 200px;
+width: 100%;
+position: absolute;
+top: 250px;
+
+}
+.sun{
+
+
+    position: absolute;
+top: 100px;
+animation-name: sun;
+animation-iteration-count: infinite;
+animation-duration: 20s;
+}
+@keyframes sun{
+from{
+right:0%;
+}
+to {
+right: 100%;
+}
+
+}
+.car{
+position: absolute;
+top:400px;
+left:450px;
+}
+.wheel1{
+position: absolute;
+top:470px;
+left:550px;
+z-index: 1;
+
+
+    
+    margin-left: 150px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+   
+}
+
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.wheel2{
+
+position: absolute;
+top:470px;
+left:330px;
+z-index: 1;
+
+
+    
+    margin-left: 150px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+   
+}
+
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.flag{
+position: absolute;
+top:370px;
+left:700px;
+z-index: 1;
+}
+#ne{
+position: absolute;
+top:20px ;
+left:50px;
+font-size: 40px;
+}
+#ba{
+
+position: absolute;
+top: 20px ;
+
+left:1200px;
+font-size: 40px ;
+
+
+}
