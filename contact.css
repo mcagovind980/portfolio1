@@ -1,0 +1,88 @@
+/* Global Styles */
+
+*  {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+  }
+
+body 
+
+{ 
+
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    background-color: #dff5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+/* Contact Section Styles */
+   .contact 
+
+     {
+
+    background-color: #dfef9f;
+
+    padding: 30px;
+    
+    border-radius: 8px;
+    
+    box-shadow: 0 4px 8px rgba(129, 86, 86, 0.1);
+    
+    width: 100%;
+    
+    max-width: 800px;
+ color: black;
+ font-size: 30px;   
+    margin: 20px;
+ height: 500px;
+    
+text-align: center;
+
+    }
+
+ .contact h1 
+    {
+    color: black;
+    margin-bottom: 20px;
+text-shadow: 4px 4px 10px yellow;
+    }
+
+  .contact p 
+  {
+text-shadow: 4px 4px 10px greenyellow;
+
+    font-size: 30px;
+
+    color: black;
+
+    margin-bottom: 8px;
+  
+      }
+ 
+ /* Responsive Design */
+ 
+   @media (max-width: 600px) 
+
+   {
+     .contact 
+    {
+        padding: 15px;
+        margin: 10px;
+    }
+
+     .contact h1 
+    {
+        font-size: 1.5rem;
+    }
+    .contact p 
+    {
+        font-size: 1rem;
+    }
+   
+}

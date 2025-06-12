@@ -1,0 +1,252 @@
+*
+
+{
+ box-sizing: border-box;
+
+}
+body
+{
+     display: flex;
+     font-size: 1rem;
+     flex-wrap: wrap;
+     font-family: Arial, sans-serif;
+     line-height:1.6;
+     background-color: #ebf5f2;
+
+     justify-content: center;
+     align-items: center;
+ 
+}
+
+#ab
+{
+ left:700px;
+font-size: 30px;
+text-shadow: 5px 5px 8px red;
+position: absolute;
+top:20px;
+
+}
+.n{
+    position: absolute; 
+    right: 3px;
+    top:0;
+
+}
+.b
+{
+    position: absolute; 
+    left: 3px;
+    top:0;
+}
+
+
+
+.n a,.b a 
+{
+
+    text-decoration: none;
+    
+
+}
+
+
+.grid
+{
+
+    display: grid;
+grid-template-columns: 300px 300px;
+grid-template-rows: 200px 200px;
+column-gap: 50px;
+row-gap: 15px;
+/* border: 2px; */
+margin-left: 10px;
+ display: wrap;
+flex-wrap: wrap;  
+margin-top: 75px;
+
+
+
+}
+
+.about
+{
+
+/* border: 3px solid; */
+font-size: 20px;
+text-shadow: 5px 5px 15px blue;
+}
+.about h1{
+
+    text-shadow: 5px 5px 15px blue;
+
+}
+.addres
+{   
+
+    font-size: 20px;
+text-shadow: 5px 5px 15px blue;
+/* border: 3px solid; */
+margin-left: 350px;
+width: 400px;
+margin-top: 100px;
+}
+.Education 
+{
+
+    font-size: 20px;
+text-shadow: 5px 5px 15px blue;
+/* border: 3px solid; */
+width: 400px;
+margin-left: 3px;
+height: 600px;
+margin: 4px;
+
+}
+
+.experience
+{
+
+     font-size: 20px;
+
+     text-shadow: 5px 5px 15px blue;
+/* border: 3px solid; */
+/* margin-left: 150px; */
+
+     height: 300px;
+     width: 200px;
+    margin-top: 100px;
+margin-left: 300px;
+
+
+
+}
+.skill{
+/* border: 3px solid; */
+
+margin-top: 500px;
+height: 400px;
+width: 400px;
+font-size: 20px;
+text-shadow: 5px 5px 15px blue;
+
+}
+.project{ 
+
+    margin-left: 300px;
+
+
+    margin-top: 300px;
+
+    height: 300px;
+
+    width: 200px;
+   font-size: 20px;
+
+   text-shadow: 5px 5px 15px blue;
+
+
+
+}
+.Interest
+   
+{
+
+    height: 300px;
+
+    width: 200px;
+/* margin-left: 200px; */
+
+
+  font-size: 20px;
+ 
+   text-shadow: 5px 5px 15px blue;
+
+
+
+}
+
+.soft
+{
+ height: 400px;
+
+ width: 300px;
+
+ margin-left: 300px;
+
+ font-size: 20px;
+
+ text-shadow: 5px 5px 15px blue;
+
+}
+
+.langauge
+{
+
+
+    height: 300px;
+
+    width: 200px;
+
+    font-size: 20px;
+
+    text-shadow: 5px 5px 15px blue;
+}
+.personal
+   {
+
+height: 300px;
+width: 200px;
+margin-left: 300px;
+font-size: 20px;
+text-shadow: 5px 5px 15px blue;
+
+   }
+
+@media (min-width:100px) and (max-width:800px)
+{
+
+.grid
+
+   {
+ grid-template-columns: repeat(1,1fr);
+
+   }
+
+ .experience
+{
+width: auto;
+
+}
+}
+
+ @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+     .about, .addres, .Education, .experience, .skill, .project, .Interest, .soft, .langauge, .personal {
+
+        width: 100%;
+
+        margin: 0;
+  }
+.experience{
+
+    margin-top: 300px;
+}
+.ab{
+
+margin-left: 10px;
+
+}
+}
+
+.grid div 
+{
+  transition: transform 0.3s ease;
+}
+
+.grid div:hover
+ {
+  transform: scale(1.05);
+}
