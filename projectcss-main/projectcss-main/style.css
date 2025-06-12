@@ -1,0 +1,91 @@
+.trip{
+
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    row-gap: 20px;
+    column-gap: 70px;
+position: absolute;
+top:150px;
+left:100px;
+
+}
+
+
+.paris{
+    /* margin: 4px; */
+background-color:white;
+height: 300px;
+text-align: center;
+border: 1px solid rgb(160, 157, 157);
+border-radius: 20px;
+
+}
+.my{
+    margin: 4px;
+    background-color:white;
+height: 300px;
+border: 1px solid rgb(160, 157, 157);
+border-radius: 20px;
+}
+.moviez{
+    /* margin: 3px; */
+    background-color:white;
+height: 300px;
+border: 1px solid rgb(160, 157, 157);
+border-radius: 20px;
+
+}
+.daily{
+margin: 4px;
+background-color:white;
+height: 300px;
+/* grid-row:300px; */
+border: 1px solid rgb(160, 157, 157);
+border-radius: 20px;
+
+}
+.book{
+    margin: 4px;
+    background-color:white;
+height: 300px;
+border: 1px solid rgb(160, 157, 157);
+border-radius: 20px;
+
+}
+.list{
+    
+    text-align: center;
+}
+
+#g{
+    position: absolute;
+    top:-2px;
+    right: 600px;
+    color: aqua;
+}
+
+.main{
+
+    background-color:rgb(236, 228, 228);
+height: 800px;
+width: 1200px;
+
+border-radius: 20px;
+
+}
+.l{
+    background-color: rgb(236, 234, 234);
+   color:rgb(138, 138, 138)
+}
+.add{
+position: absolute;
+right: 200px;
+word-spacing: 10px;
+font-size: 20px;
+}
+.i{
+position: absolute;
+right: 150px;
+
+
+}
