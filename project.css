@@ -1,0 +1,87 @@
+
+
+*  
+{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+  }
+.pro{
+position: absolute;
+top: 20px;
+
+}
+
+
+
+body 
+
+{ 
+
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    background-color: #c1edf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+/* Contact Section Styles */
+   .grid
+
+     {
+
+    background-color: #d3d4c6;
+
+    padding: 20px;
+    
+    border-radius: 8px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    
+    max-width: 100%;
+   position: absolute;
+  top:50px;
+    margin: 20px;
+    font-size: 30px;
+    
+    text-align: center;
+    min-height: 1200px;
+    max-height: 1400px;
+
+    }
+    .grid a
+    {
+ 
+ text-decoration: none;
+  color: inherit;
+  text-shadow: 4px 4px 10px blue;
+}
+.grid a:hover
+{
+transform: translate(1.05);
+
+color: red;
+  
+}
+ /* Responsive Design */
+    @media (max-width: 600px) 
+
+   {
+     .grid
+    {
+        padding: 15px;
+        margin: 10px;
+    }
+
+     .grid
+    {
+        font-size: 1.5rem;
+    }
+    
+}

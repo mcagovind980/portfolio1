@@ -1,0 +1,55 @@
+body
+      {
+
+display: flex;
+
+justify-content: center;
+
+text-align: center;
+
+flex-wrap: wrap;
+
+align-items: center;
+
+font-size: 30px;
+  
+background-color: rgb(233, 236, 219);
+   
+  
+  }
+
+
+   .skill
+     {
+    margin-top: 150px;
+
+    margin-left: 100px;
+    /* min-width: 900px;
+  */
+   width: 900px; 
+
+   background-color: rgb(226, 248, 248);
+/* min-height:900px; 
+  */
+    height:500px;
+ 
+    box-shadow: 5px 5px 15px black;
+
+
+
+  }
+ .skill h1
+ {
+   text-shadow: 3px 3px 13px red;
+  
+   font-size: 75px;
+
+  }
+.skill p
+   
+{
+font-size: 35px;
+
+  text-shadow: 3px 3px 13px rgb(57, 11, 223);
+   
+}
